@@ -13,5 +13,13 @@ public class SecondClass {
 		System.out.println("Sum of given number is: " + (a+b));
 		Assert.assertEquals((a+b), 30);
 	}
+	@Test
+	public void sub()
+	{
+		int a = 10;
+		int b = 20;
+		System.out.println("Sum of given number is: " + (b-a));
+		Assert.assertEquals((b-a), 10);
+	}
 
 }
